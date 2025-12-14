@@ -1,0 +1,40 @@
+{% extends "core/base.html" %}
+
+{% block title %}Inicio | CreatSoft{% endblock %}
+
+{% block header_title %}Bienvenidos a CreatSoft{% endblock %}
+{% block header_subtitle %}Innovamos tu futuro{% endblock %}
+
+{% block content %}
+
+<header class="pagina">
+    <div class="pagina-content">
+
+        <div class="pagina-box">
+            <h1>Bienvenidos a CreatSoft</h1>
+        </div>
+
+        <p>Innovamos tu futuro</p>
+
+        <h2 class="mb-3">Soluciones de Software</h2>
+
+        <p class="lead">
+            Creamos software moderno, eficiente y adaptado a las necesidades de cada empresa.
+        </p>
+
+        <h3 class="mt-4">Proyecto Destacado</h3>
+
+        <p>
+            <strong>SmartMerca:</strong> Sistema inteligente de inventarios.
+        </p>
+
+        <a href="{% url 'portafolio' %}" class="btn-main mt-3">
+            Ver Proyecto
+        </a>
+
+    </div>
+</header>
+
+{% endblock %}
+
+
